@@ -1,8 +1,8 @@
 a=[]
-for i in ['红','黄','蓝','绿']:
+for i in ['red','yellow','blue','green']:
     for j in range(0,10):
         a.append((i,j))
 print(a)
-for i in ['红','黄','蓝','绿']:
+for i in ['red','yellow','blue','green']:
     a.append((i,'+2'))
     
